@@ -52,7 +52,7 @@
 }
 .nav-sm .nav.child_menu li.active,
 .nav-sm .nav.side-menu li.active-sm {
-  border-right: 5px solid #1ABB9C;
+  border-right: 5px solid #BDCD00;
 }
 .nav-sm ul.nav.child_menu ul,
 .nav-sm .nav.side-menu li.active-sm ul ul {
@@ -61,7 +61,7 @@
     background: none;
 }
 .nav-sm > .nav.side-menu > li.active-sm > a {
-  color: #1ABB9C !important;
+  color: #BDCD00 !important;
 }
 .nav-sm .nav.side-menu li a i.toggle-up {
   display: none !important;
@@ -260,13 +260,13 @@ body .container.body .right_col {
   color: #9B59B6;
 }
 .green {
-  color: #1ABB9C;
+  color: #BDCD00;
 }
 .aero {
   color: #9CC2CB;
 }
 .red {
-  color: #E74C3C;
+  color: #B94A48;
 }
 .dark {
   color: #34495E;
@@ -295,13 +295,13 @@ body .container.body .right_col {
   color: #73879C;
 }
 .bg-green {
-  background: #1ABB9C !important;
-  border: 1px solid #1ABB9C !important;
+  background: #BDCD00 !important;
+  border: 1px solid #BDCD00 !important;
   color: #fff;
 }
 .bg-red {
-  background: #E74C3C !important;
-  border: 1px solid #E74C3C !important;
+  background: #B94A48 !important;
+  border: 1px solid #B94A48 !important;
   color: #fff;
 }
 .bg-blue {
@@ -564,7 +564,7 @@ a:hover, a:focus {
   padding: 13px 15px 12px;
 }
 .nav.side-menu> li.current-page, .nav.side-menu> li.active {
-  border-right: 5px solid #1ABB9C;
+  border-right: 5px solid #BDCD00;
 }
 .nav li.current-page {
   background: rgba(255, 255, 255, 0.05);
@@ -2278,7 +2278,7 @@ input.parsley-error, textarea.parsley-error, select.parsley-error {
 .btn {
   border-radius: 3px;
 }
-a.btn-success, a.btn-primary, a.btn-warning, a.btn-danger {
+a.btn-success, a.btn-primary, a.btn-warning, a.btn-danger, a.btn-ma {
   color: #fff;
 }
 .btn-success {
@@ -2339,6 +2339,18 @@ a.btn-success, a.btn-primary, a.btn-warning, a.btn-danger {
   right: -10px;
   font-size: 10px;
   font-weight: 400;
+}
+
+.btn.btn-ma {
+  color: #fff;
+  background: #BDCD00;
+  border: 1px solid #757E00;
+}
+
+.btn.btn-ma:hover {
+  background: #9CA800;
+  color: #fff;
+  border-color: #757E00;
 }
 /* ***** /buttons *******/
 
